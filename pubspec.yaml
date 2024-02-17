@@ -1,0 +1,63 @@
+name: gooridedriver
+description: A new Flutter project.
+version: 1.0.0+1
+environment: 
+  sdk: '>=2.12.0 <3.0.0'
+dependencies: 
+  flutter: 
+    sdk: flutter
+  flutter_localizations: 
+    sdk: flutter
+  flutter_bloc: ^8.1.3
+  connectivity_plus: ^5.0.2
+  shared_preferences: ^2.2.2
+  cached_network_image: ^3.3.0
+  flutter_svg: ^2.0.9
+  equatable: ^2.0.5
+  flutter_login_facebook: ^1.6.2
+  pin_code_fields: ^8.0.1
+  country_pickers: ^2.0.0
+  smooth_page_indicator: ^1.1.0
+  sms_autofill: ^2.3.0
+  flutter_svg_provider: ^1.0.7
+  carousel_slider: ^4.2.1
+  dio: ^5.4.0
+dev_dependencies: 
+  flutter_test: 
+    sdk: flutter
+flutter: 
+  uses-material-design: true
+  assets: 
+    - assets/
+    - assets/images/
+  fonts: 
+    - family: Jomhuria
+      fonts: 
+        - asset: assets/fonts/JomhuriaRegular.ttf
+          weight: 400
+    - family: Homenaje
+      fonts: 
+        - asset: assets/fonts/HomenajeRegular.ttf
+          weight: 400
+    - family: Inter
+      fonts: 
+        - asset: assets/fonts/InterSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/InterRegular.ttf
+          weight: 400
+        - asset: assets/fonts/InterBold.ttf
+          weight: 700
+    - family: Hind Siliguri
+      fonts: 
+        - asset: assets/fonts/HindSiliguriRegular.ttf
+          weight: 400
+        - asset: assets/fonts/HindSiliguriSemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/HindSiliguriBold.ttf
+          weight: 700
+    - family: Roboto
+      fonts: 
+        - asset: assets/fonts/RobotoRomanRegular.ttf
+          weight: 400
+        - asset: assets/fonts/RobotoRomanMedium.ttf
+          weight: 500
